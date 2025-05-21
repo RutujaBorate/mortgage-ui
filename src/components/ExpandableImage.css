@@ -1,0 +1,22 @@
+.expand-container{
+    margin-top: 20px;
+    text-align: center;
+}
+.expand-container button{
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.expand-container button:hover{
+    background-color: #138496;
+}
+.contract-images{
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
