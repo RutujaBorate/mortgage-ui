@@ -29,7 +29,7 @@ const MortgageForm = ({onSubmit}) => {
     <div className='form-container'>
       <h2>Mortgage Data Entry</h2>
       <form onSubmit={handleSubmit} className='form-grid'>
-        {Object.entries(form).map(([key , value])=>{
+        {Object.entries(form).map(([key , value])=>(
             <input type="text" 
             key={key}
             value={value}
@@ -38,7 +38,7 @@ const MortgageForm = ({onSubmit}) => {
             placeholder={key.replace(/([A-Z])/g, ' $1')}
             required/>
 
-        })}
+        ))}
         <button type='submit'>Submit</button>
       </form>
 
